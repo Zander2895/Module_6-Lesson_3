@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from sqlalchemy.exc import IntegrityError
-from marshmallow import fields, validates, ValidationError
+from marshmallow import validates, ValidationError
 import datetime
 
 # Initialize Flask app
